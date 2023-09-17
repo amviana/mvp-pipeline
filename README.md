@@ -1,7 +1,7 @@
 # mvp-pipeline
---Trabalho para obtenção de nota no MVP.
+# Trabalho para obtenção de nota no MVP.
 
---Qual portador teve mais gastos?
+# Qual portador teve mais gastos?
 
 SELECT
     "nome_portador",
@@ -16,7 +16,7 @@ ORDER BY
     TotalGasto DESC
 LIMIT 5;
 
---Qual favorecido mais apareceu?
+# Qual favorecido mais apareceu?
 
 UPDATE cartaopagamento
 SET "nome_favorecido" = 'SAQUE'
@@ -37,7 +37,7 @@ ORDER BY
     TotalAparicoes DESC
 LIMIT 5;
 
---Qual mês teve mais gastos no 1º sem/2022?
+# Qual mês teve mais gastos no 1º sem/2022?
 
 SELECT
     mes_extrato,
